@@ -1,4 +1,6 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
     { "source": "/hospital", "destination": "/hospital.html" },
     { "source": "/bookhospbed", "destination": "/bookhospbed.html" },
