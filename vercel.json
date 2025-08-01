@@ -2,8 +2,9 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/hospital.html", "destination": "/hospital.html" },
+    { "source": "/hospital", "destination": "/hospital.html" },
     { "source": "/bookhospbed", "destination": "/bookhospbed.html" },
-    { "source": "/integration", "destination": "/integration.html" }
+    { "source": "/integration", "destination": "/integration.html" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
